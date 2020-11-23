@@ -1,0 +1,9 @@
+[class*='col-']{
+  height: 200px;
+  background-color: lightblue;
+  border:1px solid black;
+}
+
+.foot_bg{
+  background-color: lightgreen;
+}
