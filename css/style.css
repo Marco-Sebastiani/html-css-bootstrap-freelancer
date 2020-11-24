@@ -176,6 +176,10 @@ h2{
   #box_jumbo h3{
     font-size: 13px;
   }
+  
+  #portfolio .layover{
+    display: none;
+  }
 }
 
 /* end css */
