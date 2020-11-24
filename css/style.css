@@ -5,23 +5,10 @@
 }
 
 /* DA CANCELLARE */
-.hg_contact{
-  height: 400px;
-}
 
-.head_bg{
-  background-color: lightgreen;
-}
 
-.hg_jumbo{
-  height: 400px;
-  background-color: violet;
-}
 
-.bcg_intro{
-  background-color: blue;
-  height: 100px;
-}
+
 
 .border_footer{
   border: 1px solid red;
@@ -107,7 +94,9 @@ h2{
 #portfolio .mcs_star:before,
 #portfolio .mcs_star:after,
 #about .mcs_star:before,
-#about .mcs_star:after {
+#about .mcs_star:after,
+#contact_me .mcs_star:before,
+#contact_me .mcs_star:after {
   content: '';
   display: inline-block;
   width: 15%;
@@ -120,7 +109,7 @@ h2{
 #box_jumbo .mcs_star i,
 #portfolio .mcs_star i,
 #about .mcs_star i,
-#about .mcs_star i {
+#contact_me .mcs_star i {
   font-size: 30px;
   vertical-align: middle;
   padding: 10px 0;
@@ -201,6 +190,36 @@ h2{
   border: 1px solid #fff;
   border-radius: 10px;
 }
+
+/* CONTACT ME */
+#contact_me .mcs_star:before,
+#contact_me .mcs_star:after {
+  background-color: #000;
+}
+
+#contact_me{
+  padding: 25px 0;
+}
+
+#contact_me input,
+#contact_me textarea{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: unset;
+  box-shadow: unset;
+}
+
+
+#contact input,
+#contact textarea:hover{
+  cursor: text;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width:420px) {
