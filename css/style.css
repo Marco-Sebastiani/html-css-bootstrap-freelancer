@@ -57,7 +57,8 @@ footer{
 /* HEader */
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -83,12 +84,13 @@ h1 {
 }
 
 .navbar.mcs_navbar .navbar-header a{
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .navbar.mcs_navbar .navbar-brand,
 .navbar.mcs_navbar .navbar-nav li a{
   color:white;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -98,12 +100,12 @@ h1 {
 
 /* jumbotron */
 
-#box_jumbo{
-
+#box_jumbo img{
+  max-width: 90%;
 }
 
-.mcs_star:before,
-.mcs_star:after {
+#box_jumbo .mcs_star:before,
+#box_jumbo .mcs_star:after {
   content: '';
   display: inline-block;
   width: 15%;
@@ -113,12 +115,15 @@ h1 {
   margin: 0 20px;
 }
 
-.mcs_star i {
+#box_jumbo .mcs_star i {
   font-size: 30px;
   vertical-align: middle;
 }
 
-
+#box_jumbo h3{
+  font-size: 20px;
+  text-transform: uppercase;
+}
 
 
 
