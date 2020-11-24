@@ -1,4 +1,4 @@
-[class*='col-']{
+.debug [class*='col-']{
   height: 150px;
   background-color: lightblue;
   border:1px solid black;
@@ -51,3 +51,79 @@
 footer{
   height: 800px;
 }
+
+/* /da cancellare */
+
+/* HEader */
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+/* riutilizzabili */
+.mcs_green {
+  background-color: #1abc9c;
+}
+
+.mcs_text_white {
+  color: white;
+}
+
+/* hedaer */
+ .box_nav{
+  height: 90px;
+}
+
+.navbar.mcs_navbar{
+  background-color: #2c3e50;
+  border:0;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+.navbar.mcs_navbar .navbar-header a{
+  font-size: 25px;
+}
+
+.navbar.mcs_navbar .navbar-brand,
+.navbar.mcs_navbar .navbar-nav li a{
+  color:white;
+  text-transform: uppercase;
+}
+
+.navbar.mcs_navbar .navbar-nav li a:hover{
+  color:#1abc9c;
+}
+
+/* jumbotron */
+
+#box_jumbo{
+
+}
+
+.mcs_star:before,
+.mcs_star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.mcs_star i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+/* end css */
