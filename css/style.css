@@ -56,10 +56,14 @@ footer{
 
 /* HEader */
 
-h1 {
+h1, h2 {
   font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+h2{
+  font-size: 40px;
 }
 
 /* riutilizzabili */
@@ -105,7 +109,9 @@ h1 {
 }
 
 #box_jumbo .mcs_star:before,
-#box_jumbo .mcs_star:after {
+#box_jumbo .mcs_star:after,
+#portfolio .mcs_star:before,
+#portfolio .mcs_star:after {
   content: '';
   display: inline-block;
   width: 15%;
@@ -123,6 +129,19 @@ h1 {
 #box_jumbo h3{
   font-size: 20px;
   text-transform: uppercase;
+}
+
+/* POrtfolio */
+
+#portfolio .mcs_star:before,
+#portfolio .mcs_star:after {
+  background-color: #000;
+}
+
+#portfolio img{
+  max-width: 100%;
+  border-radius: 5%;
+  margin: 10px 0;
 }
 
 
