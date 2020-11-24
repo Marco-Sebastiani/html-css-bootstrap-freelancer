@@ -1,42 +1,4 @@
-.debug [class*='col-']{
-  height: 150px;
-  background-color: lightblue;
-  border:1px solid black;
-}
-
-/* DA CANCELLARE */
-
-
-
-
-
-.border_footer{
-  border: 1px solid red;
-}
-
-
-
-
-.box_footer_t{
-  background-color:#3a546d ;
-}
-
-.box_footer_b{
-  background-color: #2c3e50;
-}
-
-.bcg_r{
-  background-color: red;
-}
-
-footer{
-  height: 800px;
-}
-
-/* /da cancellare */
-
 /* HEader */
-
 h1, h2 {
   font-size: 50px;
   font-weight: bold;
@@ -45,6 +7,37 @@ h1, h2 {
 
 h2{
   font-size: 40px;
+}
+
+h3{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#box_jumbo .mcs_star:before,
+#box_jumbo .mcs_star:after,
+#portfolio .mcs_star:before,
+#portfolio .mcs_star:after,
+#about .mcs_star:before,
+#about .mcs_star:after,
+#contact_me .mcs_star:before,
+#contact_me .mcs_star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+#box_jumbo .mcs_star i,
+#portfolio .mcs_star i,
+#about .mcs_star i,
+#contact_me .mcs_star i {
+  font-size: 30px;
+  vertical-align: middle;
+  padding: 10px 0;
 }
 
 /* riutilizzabili */
@@ -87,37 +80,6 @@ h2{
 
 #box_jumbo img{
   max-width: 90%;
-}
-
-#box_jumbo .mcs_star:before,
-#box_jumbo .mcs_star:after,
-#portfolio .mcs_star:before,
-#portfolio .mcs_star:after,
-#about .mcs_star:before,
-#about .mcs_star:after,
-#contact_me .mcs_star:before,
-#contact_me .mcs_star:after {
-  content: '';
-  display: inline-block;
-  width: 15%;
-  height: 4px;
-  border-radius:2px;
-  background-color: white;
-  margin: 0 20px;
-}
-
-#box_jumbo .mcs_star i,
-#portfolio .mcs_star i,
-#about .mcs_star i,
-#contact_me .mcs_star i {
-  font-size: 30px;
-  vertical-align: middle;
-  padding: 10px 0;
-}
-
-#box_jumbo h3{
-  font-size: 20px;
-  text-transform: uppercase;
 }
 
 /* POrtfolio */
@@ -178,7 +140,6 @@ h2{
   line-height: 1.6;
 }
 
-
 #about a,
 #about i {
   font-size: 25px;
@@ -211,7 +172,6 @@ h2{
   box-shadow: unset;
 }
 
-
 #contact_me input,
 #contact_me textarea:hover{
   cursor: text;
@@ -224,10 +184,71 @@ h2{
   color: white;
 }
 
+/* FOOTER */
+footer,
+footer a{
+  color: #fff;
+}
 
+footer .box_footer_t{
+  background-color:#3a546d ;
+  padding: 30px 0;
+}
 
+footer .box_footer_b{
+  background-color: #2c3e50;
+  height: 80px;
+}
 
+footer h3{
+  margin-top: 30px ;
+}
 
+footer h4{
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+footer a:hover{
+  color: #1abc9c;
+}
+
+footer i{
+  font-size: 18px;
+  margin-right: 3px;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+footer p{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+footer span{
+  color: #1abc9c;
+}
+
+footer .mcs_copy{
+  line-height: 80px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  footer p{
+    font-size: 18px;
+  }
+  h4{
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (min-width: 768px){
+  footer p{
+    font-size: 14px;
+  }
+}
 
 @media screen and (max-width:420px) {
   #box_jumbo h3{
