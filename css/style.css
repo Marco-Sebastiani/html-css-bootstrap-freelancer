@@ -144,6 +144,7 @@ h2{
   border-radius: 5%;
   left: 15px;
   top: 10px;
+  cursor: pointer;
 }
 
  #portfolio .layover i{
@@ -189,6 +190,7 @@ h2{
   padding: 15px;
   border: 1px solid #fff;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 /* CONTACT ME */
@@ -210,12 +212,17 @@ h2{
 }
 
 
-#contact input,
-#contact textarea:hover{
+#contact_me input,
+#contact_me textarea:hover{
   cursor: text;
 }
 
-
+#contact_me button{
+  margin-top: 15px;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  border: none;
+  color: white;
+}
 
 
 
